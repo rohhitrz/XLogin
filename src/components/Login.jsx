@@ -10,7 +10,7 @@ export default function Login() {
 
     if (username == "" || password == "") {
       setMessage("Please fill in both fields.");
-      return;
+    //   return;
     }
 
     if (username === "user" && password === "password") {
